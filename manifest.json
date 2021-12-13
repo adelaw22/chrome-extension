@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Extension Sample",
+    "description": "sample chrome extension",
+    "version": "1.0.0",
+    "icons": {"128": "jedi-128.png"},
+    "browser_action":{
+        "default_icon":"jedi-19.png",
+        "default_popup": "sample.html"
+    },
+    "permissions": ["activeTab"]
+}
